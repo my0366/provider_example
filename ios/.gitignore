@@ -1,0 +1,44 @@
+# Flutter/Dart specific files
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+.idea/
+.vscode/
+
+# Android related files
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug.keystore
+**/android/app/release.keystore
+**/android/gradle.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/
+**/android/build/
+
+# iOS related files
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/app.flx
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/.generated/
+
+# macOS related files
+**/macos/Flutter/Flutter.xcconfig
+**/macos/Flutter/FlutterMacOS.framework/
+
+# Windows related files
+**/windows/Flutter/flutter_export_windows.sh
+
+# Web related files
+**/web/.dart_tool/build/
+**/web/packages/
+
+# Generated files
+**/lib/generated_plugin_registrant.dart
